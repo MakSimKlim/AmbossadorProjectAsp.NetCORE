@@ -1,0 +1,341 @@
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Class_React/intro
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro
+$ git init
+Initialized empty Git repository in E:/Work/Личное/Программирование/
+PD_321/Classwork/Angular_React/intro/.git/
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+        public/
+        src/
+
+nothing added to commit but untracked files present (use "git add" t
+o track)
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by
+CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced
+by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be r
+eplaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replac
+ed by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced
+ by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced
+by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be repl
+aced by CRLF the next time Git touches it
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/Article/Article.css
+        new file:   src/Article/Article.js
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/setupTests.js
+
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git commit -m 'init'
+[master (root-commit) 8aa040a] init
+ 20 files changed, 18017 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/Article/Article.css
+ create mode 100644 src/Article/Article.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git remote add origin https://github.com/MakSimKlim/Angular_React.git
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git remote -v
+origin  https://github.com/MakSimKlim/Angular_React.git (fetch)
+origin  https://github.com/MakSimKlim/Angular_React.git (push)
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ git push origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (25/25), 177.34 KiB | 6.57 MiB/s, done.
+Total 25 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MakSimKlim/Angular_React.git
+ * [new branch]      master -> master
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React/intro (master)
+$ cd ..
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directo
+ry)
+        deleted:    .gitignore
+        deleted:    README.md
+        deleted:    package-lock.json
+        deleted:    package.json
+        deleted:    public/favicon.ico
+        deleted:    public/index.html
+        deleted:    public/logo192.png
+        deleted:    public/logo512.png
+        deleted:    public/manifest.json
+        deleted:    public/robots.txt
+        deleted:    src/App.css
+        deleted:    src/App.js
+        deleted:    src/App.test.js
+        deleted:    src/Article/Article.css
+        deleted:    src/Article/Article.js
+        deleted:    src/index.css
+        deleted:    src/index.js
+        deleted:    src/logo.svg
+        deleted:    src/reportWebVitals.js
+        deleted:    src/setupTests.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        intro/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ git add .
+warning: in the working copy of 'intro/.gitignore', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/README.md', LF will be replac
+ed by CRLF the next ti
+me Git touches it
+warning: in the working copy of 'intro/package-lock.json', LF will b
+e replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/package.json', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/public/index.html', LF will b
+e replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/public/manifest.json', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/public/robots.txt', LF will b
+e replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/App.css', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/App.js', LF will be repla
+ced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/App.test.js', LF will be
+replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/index.css', LF will be re
+placed by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/index.js', LF will be rep
+laced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/reportWebVitals.js', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'intro/src/setupTests.js', LF will b
+e replaced by CRLF the next time Git touches it
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    .gitignore -> intro/.gitignore
+        renamed:    README.md -> intro/README.md
+        renamed:    package-lock.json -> intro/package-lock.json
+        renamed:    package.json -> intro/package.json
+        renamed:    public/favicon.ico -> intro/public/favicon.ico
+        renamed:    public/index.html -> intro/public/index.html
+        renamed:    public/logo192.png -> intro/public/logo192.png
+        renamed:    public/logo512.png -> intro/public/logo512.png
+        renamed:    public/manifest.json -> intro/public/manifest.json
+        renamed:    public/robots.txt -> intro/public/robots.txt
+        renamed:    src/App.css -> intro/src/App.css
+        renamed:    src/App.js -> intro/src/App.js
+        renamed:    src/App.test.js -> intro/src/App.test.js
+        renamed:    src/Article/Article.css -> intro/src/Article/Article.css
+        renamed:    src/Article/Article.js -> intro/src/Article/Article.js
+        renamed:    src/index.css -> intro/src/index.css
+        renamed:    src/index.js -> intro/src/index.js
+        renamed:    src/logo.svg -> intro/src/logo.svg
+        renamed:    src/reportWebVitals.js -> intro/src/reportWebVitals.js
+        renamed:    src/setupTests.js -> intro/src/setupTests.js
+
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ git commit -m
+error: switch `m' requires a value
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ git commit -m 'move'
+[master b883774] move
+ 20 files changed, 0 insertions(+), 0 deletions(-)
+ rename .gitignore => intro/.gitignore (100%)
+ rename README.md => intro/README.md (100%)
+ rename package-lock.json => intro/package-lock.json (100%)
+ rename package.json => intro/package.json (100%)
+ rename {public => intro/public}/favicon.ico (100%)
+ rename {public => intro/public}/index.html (100%)
+ rename {public => intro/public}/logo192.png (100%)
+ rename {public => intro/public}/logo512.png (100%)
+ rename {public => intro/public}/manifest.json (100%)
+ rename {public => intro/public}/robots.txt (100%)
+ rename {src => intro/src}/App.css (100%)
+ rename {src => intro/src}/App.js (100%)
+ rename {src => intro/src}/App.test.js (100%)
+ rename {src => intro/src}/Article/Article.css (100%)
+ rename {src => intro/src}/Article/Article.js (100%)
+ rename {src => intro/src}/index.css (100%)
+ rename {src => intro/src}/index.js (100%)
+ rename {src => intro/src}/logo.svg (100%)
+ rename {src => intro/src}/reportWebVitals.js (100%)
+ rename {src => intro/src}/setupTests.js (100%)
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 222 bytes | 222.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MakSimKlim/Angular_React.git
+   8aa040a..b883774  master -> master
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$ ^C
+
+EVEREST@EVEREST MINGW64 /e/Work/Личное/Программирование/PD_321/Classwork/Angular_React (master)
+$
+
+
+
+
+
+
+
+*Как комитить а потом пушить на репу*
+=====================================
+git status
+git add .
+git status
+git commit -m 'Add Power DONE'
+git status
+...
+git remote -v  //проверка на связь с репой
+git remote add https://github.com/MakSimKlim/ReactClasses.git  //если не привязан ещё репозиторий
+git push origin master
+
+
+**Другие команды Git**
+======================
+git init: Инициализирует новый Git репозиторий или сбрасывает существующий.
+
+git clone: Клонирует удаленный репозиторий на локальный компьютер.
+
+git add: Добавляет измененные файлы в индекс для последующего коммита.
+
+git commit: Создает коммит с текущими изменениями в индексе.
+
+git status: Показывает текущее состояние рабочего каталога и индекса.
+
+git push: Отправляет локальные изменения в удаленный репозиторий.
+
+git pull: Обновляет локальный репозиторий с изменениями из удаленного.
+
+git branch: Управляет ветками в репозитории.
+
+git checkout: Переключается между ветками или возвращается к определенному коммиту.
+
+git merge: Слияние изменений из одной ветки в другую.
+
+git log: Показывает историю коммитов.
+
+git tag: Создает теги для маркировки определенных коммитов.
+
+git stash: Хранит текущие изменения в стеке и возвращает рабочий каталог в чистое состояние.
+
+git remote: Управляет удаленными репозиториями.
+
+git revert: Отменяет определенный коммит.
+
+
+
+
+******* чтобы откатиться до нужного комита ************
+в папке с локальным репозиторием
+$ git log
+$ git reset --hard 16a642cd63a9dffa7ae3319b9f5f529c2a6bb243 (это номер нужного комита)
+$ git push origin master --force (загрузка на удаленный репозиторий)
+$ git fetch origin (обновление информации о состоянии удаленного репозитория)
+$ git reset --hard origin/master (возможно это уже не нужно для локального репозитория, но всё же)
+
+
+
+******* для деплоя на GitHub Pages ***************
+npm run deploy - после внесений изменений в проект они автоматически отобразятся через несколько минут (необязательно делать комит-пуш)
+
