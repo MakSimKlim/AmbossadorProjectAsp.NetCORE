@@ -1,0 +1,17 @@
+1). Развертывание ASP.NET Core приложений на Ubuntu Linux
+https://ypermitin.github.io/blog/.NET/2024-03/deploy-asp-net-core-on-linux/
+
+2). Деплой ASP.NET Core приложений менее, чем за минуту
+https://www.youtube.com/watch?v=v5i2eaDgG7c
+
+3). Learn ASP.NET Core MVC (.NET 6) - Full Course
+https://www.youtube.com/watch?v=hZ1DASYd9rk
+
+4). Изучение ASP.NET Core с нуля / Разработка веб проекта на Core MVC (.NET 6)
+https://www.youtube.com/watch?v=xNLhFNxYAWQ
+
+5). ASP.NET Core + React веб-приложение | Как связать Бэкенд и Фронтенд?
+https://www.youtube.com/watch?v=csD_-3Gdk5k
+
+6). CRUD веб приложение на ASP.NET Core, React, EF Core, Postgresql с чистой архитектурой
+https://www.youtube.com/watch?v=X2-5mxFPvUM
