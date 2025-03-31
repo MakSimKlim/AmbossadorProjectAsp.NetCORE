@@ -1,0 +1,21 @@
+!20Krokozyabola25 - для всех остальных
+123Pa$$word. это для суперадмина (ContextSeed.cs)
+UserRoles и RoleManager
+
+2 Единственный способ избавиться от сообщения о режиме разработки - изменить контекст appsettings.json с Integrated Security=True на указание User Id=username;Password=password и убедиться, что пользователь является db_owner.
+
+UserId
+***************************************************
+При нажатии на имя пользователя в браузере возникает ошибка SqlNullValueException: Data is Null. This method or property cannot be called on Null values. и ссылается на Index.cshtml.cs:
+var user = await _userManager.GetUserAsync(User);
+if (user == null)
+{
+    return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+}
+
+При попытке выполнить Log in в браузере возникает ошибка SqlNullValueException: Data is Null. This method or property cannot be called on Null values.и ссылается на Login.cshtml.cs:
+var user = await _userManager.FindByEmailAsync(Input.Email);
+if (user != null)
+{
+    userName = user.UserName;
+}
