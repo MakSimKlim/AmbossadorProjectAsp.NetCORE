@@ -2,8 +2,7 @@
 mamkinhackermail@internet.ru - Basic
 sasha@masha.com - Basic
 ivanivanov@google.com - Basic
-pasha@vasha.com - Basic
-vasya@ivanov.ru - Inactive
+pasha@vasha.com - Inactive
 misha@mavashi.ru - Admin
 
 123Pa$$word. это для суперадмина (ContextSeed.cs)
