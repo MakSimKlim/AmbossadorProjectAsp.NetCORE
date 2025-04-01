@@ -1,9 +1,10 @@
 !20Krokozyabola25 - для всех остальных:
-mamkinhackermail@internet.ru
-sasha@masha.com
-ivanivanov@google.com
-pasha@vasha.com
-misha@mavashi.ru
+mamkinhackermail@internet.ru - Basic
+sasha@masha.com - Basic
+ivanivanov@google.com - Basic
+pasha@vasha.com - Basic
+vasya@ivanov.ru - Inactive
+misha@mavashi.ru - Admin
 
 123Pa$$word. это для суперадмина (ContextSeed.cs)
 UserRoles и RoleManager
